@@ -1,25 +1,102 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Pan Tadeusz</title>
-</head>
-<body>
-	<h1>Pan Tadeusz</h1>
-	<p>Spis treści</p>
-	<ul>
-		<a href="./k1.html"><li>Ksiega 1</li></a>
-		<a href="./k2.html"><li>Ksiega 2</li></a>
-		<a href="./k3.html"><li>Ksiega 3</li></a>
-		<a href="./k4.html"><li>Ksiega 4</li></a>
-		<a href="./k5.html"><li>Ksiega 5</li></a>
-		<a href="./k6.html"><li>Ksiega 6</li></a>
-		<a href="./k7.html"><li>Ksiega 7</li></a>
-		<a href="./k8.html"><li>Ksiega 8</li></a>
-		<a href="./k9.html"><li>Ksiega 9</li></a>
-		<a href="./k10.html"><li>Ksiega 10</li></a>
-		<a href="./k11.html"><li>Ksiega 11</li></a>
-		<a href="./k12.html"><li>Ksiega 12</li></a>
-	</ul>
-</body>
+<html lang="pl" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Przeczytaj książkę Adama Mickiewicza pt. 'Pan Tadeusz'"
+    />
+    <title>Pan Tadeusz</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex h-100 w-100 text-center text-white bg-dark flex-column">
+    <div class="jumbotron mt-1">
+      <h1 class="display-4">Pan Tadeusz</h1>
+      <p class="lead">czyli ostatni zajazd na Litwie.</p>
+      <hr class="my-4" />
+    </div>
+    <div class="row align-items-center h-100 w-75 mx-auto">
+      <div class="col-4">
+        <div>
+          <h3>Spis treści</h3>
+          <ul class="list-group list-group-flush mt-4">
+            <a class="text-white" href="./k1.html"
+              ><li class="list-group-item text-white bg-dark">Księga 1</li></a
+            >
+            <a class="text-white" href="./k2.html"
+              ><li class="list-group-item text-white bg-dark">Księga 2</li></a
+            >
+            <a class="text-white" href="./k3.html"
+              ><li class="list-group-item text-white bg-dark">Księga 3</li></a
+            >
+            <a class="text-white" href="./k4.html"
+              ><li class="list-group-item text-white bg-dark">Księga 4</li></a
+            >
+            <a class="text-white" href="./k5.html"
+              ><li class="list-group-item text-white bg-dark">Księga 5</li></a
+            >
+            <a class="text-white" href="./k6.html"
+              ><li class="list-group-item text-white bg-dark">Księga 6</li></a
+            >
+            <a class="text-white" href="./k7.html"
+              ><li class="list-group-item text-white bg-dark">Księga 7</li></a
+            >
+            <a class="text-white" href="./k8.html"
+              ><li class="list-group-item text-white bg-dark">Księga 8</li></a
+            >
+            <a class="text-white" href="./k9.html"
+              ><li class="list-group-item text-white bg-dark">Księga 9</li></a
+            >
+            <a class="text-white" href="./k10.html"
+              ><li class="list-group-item text-white bg-dark">Księga 10</li></a
+            >
+            <a class="text-white" href="./k11.html"
+              ><li class="list-group-item text-white bg-dark">Księga 11</li></a
+            >
+            <a class="text-white" href="./k12.html">
+              <li class="list-group-item text-white bg-dark">Księga 12</li></a
+            >
+          </ul>
+        </div>
+      </div>
+      <div class="col-8">
+        <img
+          src="book-img.jpg"
+          class="rounded img-thumbnail"
+          alt="okładka książki"
+        />
+      </div>
+    </div>
+    <footer class="mt-auto text-white-50 mx-2 my-2">
+      <span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-code-slash"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+          />
+        </svg>
+        by Krzysztof Fidyka
+      </span>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
