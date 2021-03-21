@@ -21,4 +21,24 @@ footer {
 
 .list-group-item {
   border: 0;
+  text-align: left !important;
+}
+
+.list-group-item:hover {
+  color: antiquewhite !important;
+}
+
+/* [1] The container */
+.img-hover-zoom {
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.02);
 }
