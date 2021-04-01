@@ -46,3 +46,13 @@ footer {
 .bi-arrow-left-circle:hover {
   color: antiquewhite !important;
 }
+
+.book-content {
+  margin: 40%;
+  line-height: 2.5;
+}
+
+.text-intro {
+  width: 300px;
+  text-align: justify;
+}
